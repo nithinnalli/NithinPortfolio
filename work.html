@@ -24,9 +24,37 @@
   color: white;
   font-size: 30px;
 }
+body
+  {
+
+    background-image: url('pics/front3.jpg');
+   }
+@media only screen and (min-width: 720px) {
+  body
+  {
+    background-image: url('pics/front2.jpg');
+  
+
+  }
+}
+  @media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+    
+  }
+
+}
+
 </style>
 <link rel="stylesheet" type="text/css" href="css/work.css">
-<body style="background-image: url('pics/front2.jpg')">
+<body>
 	<div id="arrow-left" style="margin-top: 5%;">
   <a href="index.html">
     <span id="footer" class="glyphicon glyphicon-chevron-left" style="color: white; margin-top: 15%;"></span>
