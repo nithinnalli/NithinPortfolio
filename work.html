@@ -8,7 +8,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/animate.css">
 <style type="text/css">
-@keyframes jump { 0% { left: 50px; } 100% { left: 0px; } }
+		@keyframes jump { 0% { left: 50px; } 100% { left: 0px; } }
 #arrow-left { 
   position:relative; 
   animation: jump 3s infinite;
@@ -28,17 +28,16 @@ body
   {
 
     background-image: url('pics/front3.jpg');
-	  background-attachment: fixed;
    }
 @media only screen and (min-width: 720px) {
   body
   {
     background-image: url('pics/front2.jpg');
-  background-attachment: fixed;
+  
 
   }
 }
-	  @media
+  @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -52,18 +51,19 @@ only screen and (min-device-pixel-ratio: 1.5){
   }
 
 }
+
 </style>
 <link rel="stylesheet" type="text/css" href="css/work.css">
-<body>
+<body class="img-responsive">
+  <div class="container">
 	<div id="arrow-left" style="margin-top: 5%;">
   <a href="index.html">
-    <span id="footer" class="glyphicon glyphicon-chevron-left" style="color: white; margin-top: 15%;"></span>
+    <span id="footer" class="glyphicon glyphicon-chevron-left" style="color: white; margin-top: 25%;"></span>
   </a>
 </div>
-<center><div class="wow fadeIn" data-wow-duration="1s" ><img src="pics/work.png" style="height: 40%;width: 50%;margin-top: -27%;"></div></center>
+<center><div class="wow fadeIn" data-wow-duration="1s" ><img src="pics/work.png" style="height: 50%;width: 70%;margin-top: -32%;"></div></center>
 	<h1 style="color: white; font-size: 90px; font-family: 'Concert One', cursive;text-align: center; margin-top: -1%; margin-bottom: 0%;"><div class="wow bounceIn" data-wow-duration="1s">My Work..</h1></div>
-	
-		<div id="arrow-down" style="margin-top: 0%;">
+	<div id="arrow-down" style="margin-top: 0%;">
   <a href="#timeline">
     <span id="footer" class="glyphicon glyphicon-chevron-down" style="color: white; margin-top: 4%;"></span>
   </a>
@@ -243,5 +243,6 @@ only screen and (min-device-pixel-ratio: 1.5){
 </div>
 <script src="js/wow.min.js"> </script>
 <script type="text/javascript">new WOW().init();</script>
+</div>
 </body>
 </html>
