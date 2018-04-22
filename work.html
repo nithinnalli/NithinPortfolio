@@ -7,7 +7,24 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/animate.css">
-
+<style type="text/css">
+		@keyframes jump { 0% { left: 50px; } 100% { left: 0px; } }
+#arrow-left { 
+  position:relative; 
+  animation: jump 3s infinite;
+  color: white;
+  font-size: 30px;
+ 
+}
+@keyframes jump1 { 0% { bottom: 50px; } 100% { bottom: 0px; } }
+#arrow-down { 
+  position:relative; 
+  text-align: center; 
+  animation: jump1 3s infinite;
+  color: white;
+  font-size: 30px;
+}
+</style>
 <link rel="stylesheet" type="text/css" href="css/work.css">
 <body style="background-image: url('pics/front2.jpg')">
 	<div id="arrow-left" style="margin-top: 5%;">
